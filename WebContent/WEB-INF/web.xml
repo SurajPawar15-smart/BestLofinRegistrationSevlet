@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <display-name>BestValidationloginReg</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <servlet-name>mypack.Regsiter</servlet-name>
+    <servlet-class>mypack.Regsiter</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>mypack.Regsiter</servlet-name>
+    <url-pattern>/Regsiter</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>mypack.LoginServlet</servlet-name>
+    <servlet-class>mypack.LoginServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>mypack.LoginServlet</servlet-name>
+    <url-pattern>/LoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>mypack.WelcomePage</servlet-name>
+    <servlet-class>mypack.WelcomePage</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>mypack.WelcomePage</servlet-name>
+    <url-pattern>/WelcomePage</url-pattern>
+  </servlet-mapping>
+</web-app>
